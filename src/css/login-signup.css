@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.logo{
+    height: 82px;
+    width: 280px;
+    margin-top: 25px;
+}
+.top-heading{
+    color:#222326;
+    font-weight:700;
+    text-align: center;
+    font-family:inherit;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.facebook{
+    background-color:#3b5998;
+    padding-top: 14px;
+    width: 450px;
+    height: 48px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.icons-heading{
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family:"Roboto";
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.apple{
+    background-color:#000000;
+    padding-top: 14px;
+    width: 450px;
+    height: 48px;
+    border-radius: 500px;
+    cursor: pointer;
+}
+.google{
+    background-color:transparent;
+    width: 450px;
+    height: 48px;
+    border-radius: 500px;
+    cursor: pointer;
+    border:2px solid #616467;
+}
+.google-icon{
+    width:40px;
+    margin-right: 10px;
+}
+.trans-heading{
+    color:#616467;
+    text-align: center;
+    font-size: 14px;
+    font-family:"Roboto";
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 5px;
+
+}
+.form{
+    width: 450px;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 16px;
+}
+.forgot-pass{
+    color: #616467;
+    text-decoration: underline;
+}
+.button {
+    border-radius: 30px;
+    width: 210px;
+    height: 47.5px;
+    background-color: #ef86c1;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  
+  .button:hover {
+    background-color: #df4b8c; /* Cambia el color a rosa más oscuro al pasar el mouse encima */
+  }
+  
+  .button:active {
+    background-color: #b92464; /* Cambia el color a un tono aún más oscuro de rosa al hacer clic */
+  }
+
+  #btn-crear:hover {
+    background-color: #e1e7e9; /* Cambia el color a rosa más oscuro al pasar el mouse encima */
+  }
+  
+  #btn-crear:active {
+    background-color: #afb4b5; /* Cambia el color a un tono aún más oscuro de rosa al hacer clic */
+  }
+
+  #btn-crear{
+    background-color: #f6fcff;
+    color: #000000;
+    border-color: #000000;
+  }
+  
+  
+.hr{
+    width: 250px;
+}
+.or{
+    color:black;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+body{
+    background-color: #e8e8e8;
+}
+
+.container {
+    background-color: #fff;
+    width: fit-content;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 40px;
+  }
+  
+
