@@ -1,147 +1,305 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKINCARE</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SKINCARE</title>
+        <link rel="stylesheet" href="CSS/style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+            rel="stylesheet">
 
-    <link rel="stylesheet"
-     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet"
+            href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
-</head>
-<body>
-    
-    <header>
-        <img src="img/logoPNG.png" alt="Logo de la página" class="logo" width= "113px"  height="38px">
-        <ul class="navbar">
-            <li><a href="/src/views/Home/index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#" class="active">Products</a></li>
-            <li><a href="#">News</a></li>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
 
-        </ul>
+        <header>
+            <a href="/src/views/Home/index.html">
+                <img src="img/logoPNG.png" alt="Logo de la página" class="logo"
+                    width="150px" height="50px">
+            </a>
 
-        <div class="main">
-            <a href="#" class="car"><i class="ri-shopping-cart-line"></i></a>
-            <a href="#" class="search"><i class="ri-search-line"></i></a>
-
-            <a href="#" class="user"><i class="ri-user-line"></i>Sign In</a>
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
-    </header>
-
-    <section class="category-cont">
-        <div class="title-cont">
-            <h2>COMPRAR POR CATEGORIA</h2>
-        </div>
-        <div class="category">
-            <ul class="nav-category">
-                <li><a href="#" class="active">CUIDADO DE PIEL</a></li>
-                <li><a href="#">CUIDADO DE PELO</a></li>
-                <li><a href="#">MAQUILLAJE</a></li>
-                <li><a href="#">HERRAMIENTAS</a></li>
-                <li><a href="#">FRAGANCIAS</a></li>
-
+            <ul class="navbar">
+                <li><a href="/src/views/Home/index.html">Inicio</a></li>
+                <li><a href="/src/views/AboutUs/AboutUs.html">Acerca de nosotros</a></li>
+                <li><a href="/src/views/PRODUCT/Products.html" class="active">Productos</a></li>
+                <li><a href="/src/views/News/News.html">Noticias SKIN CARE</a></li>
             </ul>
-        </div>
 
-    </section>
+            <div class="main">
+                <a href="/src/views/SHOPPING/shopping.html" class="car"><i
+                        class="ri-shopping-cart-line"></i></a>
+                <a href="#" class="search"><i class="ri-search-line"></i></a>
 
-
-
-    <div class="principal-gal">
-        <div class="pic-1">
-            <!-- <img src="img/img-home1.jpg" alt=""> -->
-        </div>
-        <div class="cont-1">
-            <div class="pic-2">
-                <!-- <img src="img/img-home2.jpg" alt=""> -->
+                <a href="/src/views/Login/LogIn.html" class="user"><i
+                        class="ri-user-line"></i>Iniciar Sesión</a>
+                <div class="bx bx-menu" id="menu-icon"></div>
             </div>
-            <div class="pic-3">
-                <!-- <img src="img/img-home3.jpg" alt=""> -->
+        </header>
+
+        <section class="category-cont">
+            <div class="title-cont">
+                <h2>COMPRAR POR CATEGORIA</h2>
             </div>
-        </div>
-        <div class="cont-2">
-            <div class="pic-4">
-                <!-- <img src="img/img-home4.jpg" alt=""> -->
+            <div class="category">
+                <ul class="nav-category">
+                    <li><a href="#" class="active">CUIDADO DE PIEL</a></li>
+                    <li><a href="#">CUIDADO DE PELO</a></li>
+                    <li><a href="#">MAQUILLAJE</a></li>
+                    <li><a href="#">HERRAMIENTAS</a></li>
+                    <li><a href="#">FRAGANCIAS</a></li>
+
+                </ul>
             </div>
-            <div class="pic-5">
-                <!-- <img src="img/img-home1.jpg" alt=""> -->
-            </div>
-        </div>
 
-    </div>
+        </section>
 
-
-
-    <div class="secundary-gal">
-        <div class="sec-1">
-            <!-- <img src="img/img-home1.jpg" alt=""> -->
-        </div>
-        <div class="seccont-1">
-            <div class="sec-2">
-                <!-- <img src="img/img-home2.jpg" alt=""> -->
-            </div>
-            <div class="sec-3">
-                <!-- <img src="img/img-home3.jpg" alt=""> -->
-            </div>
-        </div>
-        <div class="seccont-2">
-            <div class="sec-4">
-                <!-- <img src="img/img-home4.jpg" alt=""> -->
-            </div>
-            <div class="sec-5">
-                <!-- <img src="img/img-home1.jpg" alt=""> -->
-            </div>
-        </div>
-
-    </div>
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="foot-container">
-            <div class="row">
-                <div class="footer-par">
-                    <p>Términos de derechos de autor para Skin Care (2023): todo el contenido del sitio web de Skin Care, incluidos textos, gráficos, logotipos, imágenes y software, es propiedad de Skin Care o sus licenciantes y está protegido por las leyes de derechos de autor. No puede reproducir, distribuir, modificar ni crear obras derivadas de ningún contenido sin obtener nuestro consentimiento previo por escrito. Se puede permitir el uso limitado del contenido para fines no comerciales, educativos o personales bajo el uso justo, siempre que se proporcione la atribución adecuada. Nos reservamos el derecho de hacer cumplir nuestros derechos de autor y propiedad intelectual. Estos términos están sujetos a cambios sin previo aviso, así que revíselos periódicamente.</p>
-                    
+        <a href="/src/views/SHOPPING/shopping.html">
+            <div class="principal-gal">
+                <div class="pic-1" onmouseover="showPrice(this)"
+                    onmouseout="hidePrice(this)">
+                    <img src="ruta-de-la-imagen-1.jpg" alt
+                        onerror="this.style.display='none'">
+                    <div class="price" style="display: none;">
+                        <div class="product-name">Producto 1</div>
+                        $10
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Get help</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Shipping</a></li>
-                        <li><a href="#">Return</a></li>
-                        <li><a href="#">Order Status</a></li>
-                        <li><a href="#">Payment Options</a></li>
-                    </ul>
+                <div class="cont-1">
+                    <div class="pic-2" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <img src="ruta-de-la-imagen-2.jpg" alt
+                            onerror="this.style.display='none'">
+                        <div class="price" style="display: none;">
+                            <div class="product-name">Producto 2</div>
+                            $15
+                        </div>
+                    </div>
+                    <div class="pic-3" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <img src="ruta-de-la-imagen-3.jpg" alt
+                            onerror="this.style.display='none'">
+                        <div class="price" style="display: none;">
+                            <div class="product-name">Producto 3</div>
+                            $20
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-col">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Aggiliate Program</a></li>
-                    </ul>
+                <div class="cont-2">
+                    <div class="pic-4" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <img src="ruta-de-la-imagen-4.jpg" alt
+                            onerror="this.style.display='none'">
+                        <div class="price" style="display: none;">
+                            <div class="product-name">Producto 4</div>
+                            $12
+                        </div>
+                    </div>
+                    <div class="pic-5" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <img src="ruta-de-la-imagen-5.jpg" alt
+                            onerror="this.style.display='none'">
+                        <div class="price" style="display: none;">
+                            <div class="product-name">Producto 5</div>
+                            $18
+                        </div>
+                    </div>
                 </div>
-                <div class="footer-follow">
-                    <h4>Follow Us</h4>
-                    <div class="social-links">
-                        <a href="#" class="facebook"><i class='bx bxl-facebook'></i></a>
-                        <a href="#" class="facebook"><i class='bx bxl-twitter' ></i></box-icon></a>
-                        <a href="#" class="facebook"><i class='bx bxl-youtube' ></i></a>
-                        <a href="#" class="facebook"><i class='bx bxl-pinterest-alt' ></i></a>
-                        <a href="#" class="facebook"><i class='bx bxl-instagram' ></i></a>
+            </div>
+        </a>
+
+        <style>
+
+        .principal-gal > div {
+          position: relative;
+        }
+      
+        .price {
+          display: none;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          padding: 5px 10px;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          font-size: 14px;
+          border-radius: 4px;
+          pointer-events: none;
+          z-index: 1; /* Agregamos un índice z para asegurar que los precios se muestren correctamente */
+        }
+      
+        .price .product-name {
+          font-weight: bold;
+        }
+      
+        .principal-gal > div:hover .price {
+          display: block;
+        }
+      </style>
+
+        <script>
+        function showPrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "block";
+        }
+      
+        function hidePrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "none";
+        }
+      </script>
+
+        <a href="/src/views/SHOPPING/shopping.html">
+            <div class="secundary-gal">
+                <div class="sec-1" onmouseover="showPrice(this)"
+                    onmouseout="hidePrice(this)">
+                    <!-- <img src="img/img-home1.jpg" alt=""> -->
+                    <div class="price" style="display: none;">
+                        <div class="product-name">Producto 1</div>
+                        $10
+                    </div>
+                </div>
+                <div class="seccont-1">
+                    <div class="sec-2" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <!-- <img src="img/img-home2.jpg" alt=""> -->
+                        <div class="price-2" style="display: none;">
+                            <div class="product-name">Producto 2</div>
+                            $15
+                        </div>
+                    </div>
+                    <div class="sec-3" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <!-- <img src="img/img-home3.jpg" alt=""> -->
+                        <div class="price-2" style="display: none;">
+                            <div class="product-name">Producto 3</div>
+                            $20
+                        </div>
+                    </div>
+                </div>
+                <div class="seccont-2">
+                    <div class="sec-4" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <!-- <img src="img/img-home4.jpg" alt=""> -->
+                        <div class="price-2" style="display: none;">
+                            <div class="product-name">Producto 4</div>
+                            $12
+                        </div>
+                    </div>
+                    <div class="sec-5" onmouseover="showPrice(this)"
+                        onmouseout="hidePrice(this)">
+                        <!-- <img src="img/img-home1.jpg" alt=""> -->
+                        <div class="price-2" style="display: none;">
+                            <div class="product-name">Producto 5</div>
+                            $18
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <style>
+        .secundary-gal > div {
+          position: relative;
+        }
+      
+        .price-2 {
+          display: none;
+          position: absolute;
+          bottom: -25px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+          padding: 5px 10px;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          font-size: 14px;
+          border-radius: 4px;
+          pointer-events: none;
+          z-index: 1;
+        }
+      
+        .price .product-name {
+          font-weight: bold;
+        }
+      
+        .secundary-gal > div:hover .price {
+          display: block;
+        }
+      </style>
+        <script>
+        function showPrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "block";
+        }
+      
+        function hidePrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "none";
+        }
+      </script>
+
+        <footer class="footer">
+            <div class="foot-container">
+                <div class="row">
+                    <div class="footer-par">
+                        <p>Términos de derechos de autor para Skin Care (2023):
+                            todo el contenido del sitio web de Skin Care,
+                            incluidos textos, gráficos, logotipos, imágenes y
+                            software, es propiedad de Skin Care o sus
+                            licenciantes y está protegido por las leyes de
+                            derechos de autor. No puede reproducir, distribuir,
+                            modificar ni crear obras derivadas de ningún
+                            contenido sin obtener nuestro consentimiento previo
+                            por escrito. Se puede permitir el uso limitado del
+                            contenido para fines no comerciales, educativos o
+                            personales bajo el uso justo, siempre que se
+                            proporcione la atribución adecuada. Nos reservamos
+                            el derecho de hacer cumplir nuestros derechos de
+                            autor y propiedad intelectual. Estos términos están
+                            sujetos a cambios sin previo aviso, así que
+                            revíselos periódicamente.</p>
+
+                    </div>
+                    <div class="footer-col">
+                        <h4>Get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Shipping</a></li>
+                            <li><a href="#">Return</a></li>
+                            <li><a href="#">Order Status</a></li>
+                            <li><a href="#">Payment Options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Aggiliate Program</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-follow">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="facebook"><i
+                                    class='bx bxl-facebook'></i></a>
+                            <a href="#" class="facebook"><i
+                                    class='bx bxl-twitter'></i></box-icon></a>
+                        <a href="#" class="facebook"><i class='bx bxl-youtube'></i></a>
+                        <a href="#" class="facebook"><i
+                                class='bx bxl-pinterest-alt'></i></a>
+                        <a href="#" class="facebook"><i class='bx bxl-instagram'></i></a>
                     </div>
                 </div>
             </div>

@@ -17,20 +17,22 @@
 </head>
 <body>
     <header>
-        <img src="img/logoPNG.png" alt="Logo de la página" class="logo" width= "113px"  height="38px">
-        <ul class="navbar">
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="/src/views/PRODUCT/Products.html">Products</a></li>
-            <li><a href="#">News</a></li>
+        <a href="/src/views/Home/index.html">
+            <img src="img/logoPNG.png" alt="Logo de la página" class="logo" width= "150px"  height="50px">
+        </a>
 
+        <ul class="navbar">
+            <li><a href="/src/views/Home/index.html" class="active">Inicio</a></li>
+            <li><a href="/src/views/AboutUs/AboutUs.html">Acerca de nosotros</a></li>
+            <li><a href="/src/views/PRODUCT/Products.html">Productos</a></li>
+            <li><a href="/src/views/News/News.html" >Noticias SKIN CARE</a></li>
         </ul>
 
         <div class="main">
-            <a href="#" class="car"><i class="ri-shopping-cart-line"></i></a>
+            <a href="/src/views/SHOPPING/shopping.html" class="car"><i class="ri-shopping-cart-line"></i></a>
             <a href="#" class="search"><i class="ri-search-line"></i></a>
 
-            <a href="/src/views/LogIn.html" class="user"><i class="ri-user-line"></i>Sign In</a>
+            <a href="/src/views/Login/LogIn.html" class="user"><i class="ri-user-line"></i>Iniciar Sesión</a>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
     </header>
@@ -38,8 +40,8 @@
     <div class="slider">
         <ul>
             <li><img id="slider-1" src="img/Fondo-home.jpg" alt=""></li>
-            <li><img id="slider-2" src="img/Fondo-home.jpg" alt=""></li>
-            <li><img id="slider-3" src="img/Fondo-home.jpg" alt=""></li>
+            <li><img id="slider-2" src="img/img-home4.jpg" alt=""></li>
+            <li><img id="slider-3" src="img/img-home3.jpg" alt=""></li>
         </ul>
         <div class="slider-nav">
             <a href="#slider-1"></a>
@@ -66,28 +68,91 @@
     </section>
 
     <div class="principal-gal">
-        <div class="pic-1">
-            <!-- <img src="img/img-home1.jpg" alt=""> -->
+        <div class="pic-1" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+          <img src="ruta-de-la-imagen-1.jpg" alt="" onerror="this.style.display='none'">
+          <div class="price" style="display: none;">
+            <div class="product-name">Producto 1</div>
+            $10
+          </div>
         </div>
         <div class="cont-1">
-            <div class="pic-2">
-                <!-- <img src="img/img-home2.jpg" alt=""> -->
+          <div class="pic-2" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+            <img src="ruta-de-la-imagen-2.jpg" alt="" onerror="this.style.display='none'">
+            <div class="price" style="display: none;">
+              <div class="product-name">Producto 2</div>
+              $15
             </div>
-            <div class="pic-3">
-                <!-- <img src="img/img-home3.jpg" alt=""> -->
+          </div>
+          <div class="pic-3" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+            <img src="ruta-de-la-imagen-3.jpg" alt="" onerror="this.style.display='none'">
+            <div class="price" style="display: none;">
+              <div class="product-name">Producto 3</div>
+              $20
             </div>
+          </div>
         </div>
         <div class="cont-2">
-            <div class="pic-4">
-                <!-- <img src="img/img-home4.jpg" alt=""> -->
+          <div class="pic-4" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+            <img src="ruta-de-la-imagen-4.jpg" alt="" onerror="this.style.display='none'">
+            <div class="price" style="display: none;">
+              <div class="product-name">Producto 4</div>
+              $12
             </div>
-            <div class="pic-5">
-                <!-- <img src="img/img-home1.jpg" alt=""> -->
+          </div>
+          <div class="pic-5" onmouseover="showPrice(this)" onmouseout="hidePrice(this)">
+            <img src="ruta-de-la-imagen-5.jpg" alt="" onerror="this.style.display='none'">
+            <div class="price" style="display: none;">
+              <div class="product-name">Producto 5</div>
+              $18
             </div>
+          </div>
         </div>
+      </div>
+      
+      <style>
 
-    </div>
-
+        .principal-gal > div {
+          position: relative;
+        }
+      
+        .price {
+          display: none;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-align: center;
+          padding: 5px 10px;
+          background-color: rgba(0, 0, 0, 0.7);
+          color: #fff;
+          font-size: 14px;
+          border-radius: 4px;
+          pointer-events: none;
+          z-index: 1; /* Agregamos un índice z para asegurar que los precios se muestren correctamente */
+        }
+      
+        .price .product-name {
+          font-weight: bold;
+        }
+      
+        .principal-gal > div:hover .price {
+          display: block;
+        }
+      </style>
+      
+      <script>
+        function showPrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "block";
+        }
+      
+        function hidePrice(element) {
+          var priceElement = element.querySelector(".price");
+          priceElement.style.display = "none";
+        }
+      </script>
+      
+      
 
     <footer class="footer">
         <div class="foot-container">

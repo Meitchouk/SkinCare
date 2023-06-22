@@ -588,6 +588,37 @@ ul {
     }
 }
 
+.video-wrap {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.section-title {
+	margin: 0;
+    padding: 3rem;
+	font-size: 3rem;
+	line-height: 1;
+	color: #ff87c4;
+    text-align: center;
+    font-family: 'Roboto';
+    text-shadow: #000000;
+    border-color: #000000;
+}
+
+.section-description {
+	margin:auto;
+	padding: 1%;
+	max-width: 900px;
+	font-size: 1.3rem;
+	font-weight: normal;
+	text-align: center;
+	color: var(--color-white);
+    font-family: 'Roboto';
+}
 
 /* .container{
     

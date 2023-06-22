@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SHOPPING</title>
+  <link rel='stylesheet' href="//fonts.googleapis.com/css?family=Duru+Sans|Istok+Web">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap" rel="stylesheet">
+  <style>
+    .site-inner {
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="site-container">
+    <header>
+      <a href="/src/views/Home/index.html">
+        <img src="img/logoPNG.png" alt="Logo de la página" class="logo" width="150px" height="50px">
+      </a>
+      <ul class="navbar">
+        <li><a href="/src/views/Home/index.html">Inicio</a></li>
+        <li><a href="/src/views/AboutUs/AboutUs.html">Acerca de nosotros</a></li>
+        <li><a href="/src/views/PRODUCT/Products.html">Productos</a></li>
+        <li><a href="/src/views/News/News.html">Noticias SKIN CARE</a></li>
+      </ul>
+
+      <div class="simplecart_area">
+        <div class="simplecart_cart">
+          <span class="showCart">
+            <span class="fa fa-shopping-cart"></span>
+            <span class="simpleCart_quantity"></span> items - <span class="simpleCart_total"></span>
+            <span class="dropdown fa fa-chevron-circle-down"></span>
+          </span>
+          <button class="simpleCart_checkout">Checkout</button>
+          <div id="cartPopover" style="display:none">
+            <div class="simpleCart_items"></div>
+          </div>
+        </div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <div class="site-inner">
+      <div class="wrap">
+        <div id="products" class="products">
+          <script id="hr-template" type="text/x-handlebars-template">
+            <div class="column one-third">
+              <div class="simpleCart_shelfItem item">
+                <div class="item_image"><img src="img/Fondo-home.jpg"></div>
+                <h2 class="item_name">Algo de Skincare</h2>
+                <div class="item_description">Descripción del producto</div>
+                <div style="margin-top:10px;">
+                  <span class="item_price">${{cells.Price}}</span>
+                  <button href="javascript:;" class="item_add">Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </script>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="foot-container">
+        <div class="row">
+          <div class="footer-par">
+            <p>Términos de derechos de autor para Skin Care (2023): todo el contenido del sitio web de Skin Care, incluidos textos, gráficos, logotipos, imágenes y software, es propiedad de Skin Care o sus licenciantes y está protegido por las leyes de derechos de autor. No puede reproducir, distribuir, modificar ni crear obras derivadas de ningún contenido sin obtener nuestro consentimiento previo por escrito. Se puede permitir el uso limitado del contenido para fines no comerciales, educativos o personales bajo el uso justo, siempre que se proporcione la atribución adecuada. Nos reservamos el derecho de hacer cumplir nuestros derechos de autor y propiedad intelectual. Estos términos están sujetos a cambios sin previo aviso, así que revíselos periódicamente.</p>
+          </div>
+          <div class="footer-col">
+            <h4>Get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping</a></li>
+              <li><a href="#">Return</a></li>
+              <li><a href="#">Order Status</a></li>
+              <li><a href="#">Payment Options</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+            </ul>
+          </div>
+          <div class="footer-follow">
+            <h4>Follow Us</h4>
+            <div class="social-links">
+              <a href="#" class="facebook"><i class='bx bxl-facebook'></i></a>
+              <a href="#" class="facebook"><i class='bx bxl-twitter'></i></a>
+              <a href="#" class="facebook"><i class='bx bxl-youtube'></i></a>
+              <a href="#" class="facebook"><i class='bx bxl-pinterest-alt'></i></a>
+              <a href="#" class="facebook"><i class='bx bxl-instagram'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/simpleCart.min.js"></script>
+    <script src="js/handlebars.min.js"></script>
+    <script src="js/sheetrock.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </div>
+</body>
+</html>
